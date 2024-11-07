@@ -14,6 +14,9 @@ gem "puma", ">= 5.0"
 # Гемчик для .env переменных
 gem "dotenv", groups: [:development, :test]
 
+# гемчик для CORS
+gem "rack-cors"
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
